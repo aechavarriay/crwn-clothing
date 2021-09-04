@@ -6,14 +6,16 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "firebase": "6.0.2",
-    "node-sass": "ˆ6.0.1",
+    "firebase": "8.10.0",
+    "node-sass": "6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-logger": "^3.0.6",
     "sass-loader": "^11.1.1",
-    "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.3",
     "workbox-broadcast-update": "^5.1.3",
     "workbox-cacheable-response": "^5.1.3",
@@ -26,9 +28,6 @@
     "workbox-routing": "^5.1.3",
     "workbox-strategies": "^5.1.3",
     "workbox-streams": "^5.1.3"
-  },
-  "resolutions": {
-    "firebase": "6.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
